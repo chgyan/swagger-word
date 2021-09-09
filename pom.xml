@@ -71,7 +71,7 @@
                 <version>1.2.0</version>
                 <configuration>
                     <!--此处端口一定要是当前项目启动所用的端口-->
-                    <swaggerInput>http://192.168.100.50:9210/training/v2/api-docs</swaggerInput>
+                    <swaggerInput>http://localhost:9210/training/v2/api-docs</swaggerInput>
                     <outputDir>src/docs/asciidoc/generated</outputDir>
                     <config>
                         <!-- 除了ASCIIDOC之外，还有MARKDOWN和CONFLUENCE_MARKUP可选 -->
